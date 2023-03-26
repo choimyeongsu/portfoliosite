@@ -1,0 +1,129 @@
+body{
+    background-color: whitesmoke;
+}
+
+.frame{
+    margin:30px 150px;
+    display:flex;
+    flex-direction: column;
+}
+
+.navigator{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;   
+}
+
+li{
+    display:inline;
+    margin-left:5px;
+}
+
+.site-name{
+    font-family:'Montserrat', sans-serif;
+    font-size:20px;
+}
+
+.nav-menu{
+    font-family:'Montserrat', sans-serif;
+    font-size:15px;
+    font-weight:400;
+}
+
+a{
+    color:black;
+    text-decoration-line:none;
+}
+
+a:hover{
+    color:white;
+    transition:0.5s;
+}
+
+.dashboard{
+    font-family:'Noto Sans KR', sans-serif;
+    font-weight:500;
+    font-size:15px;
+}
+
+.highlight{
+    background-color:antiquewhite;
+}
+.highlight:hover{
+    color:blue;
+    transition:0.5s;
+    -webkit-text-stroke: 1px black;
+}
+
+.works{
+    font-family:'Montserrat', snas-serif;
+    font-size:15px;
+    text-align:right;
+}
+
+.footer{
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    
+}
+
+.contact{
+    font-family: 'Montserrat', sans-serif;
+    font-size:30px;
+    margin-bottom:10px;
+}
+
+.links{
+    font-family: 'Montserrat', sans-serif;
+    font-size:20px;
+    
+}
+
+.links>a{
+    margin-left:10px;
+}
+
+.workslist{
+    display:flex;
+    flex-direction: column;
+}
+
+.article{
+    display:flex;
+    flex-direction: row;
+    margin-bottom:120px;
+}
+.thumbnail{
+    width:500px;
+}
+.article-info{
+    margin:0px 15px;
+}
+
+.article-name{
+    font-family:'Noto Sans KR', sans-serif;
+    font-size:20px;
+    margin-top:0px;
+}
+
+.article-comment{
+    font-family:'Noto Sans KR', sans-serif;
+    font-size:15px;
+}
+
+.more{
+    width:content;
+    height:content;
+    font-family:'Montserrat', sans-serif;
+    font-size:14px;
+    background-color: transparent;
+    border:none;
+    outline:none;
+    padding:0px;
+}
+
+#art2-name{
+    text-align: right;
+   
+}
