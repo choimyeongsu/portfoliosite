@@ -127,3 +127,79 @@ a:hover{
     text-align: right;
    
 }
+
+.introduction-section{
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    align-items:flex-start;
+    margin-top:25px;
+    
+}
+.profile{
+    display:flex;
+    flex-direction:row;
+}
+#profile-picture{
+    width:300px;
+    height:300px;
+}
+
+.detail{
+    display:flex;
+    flex-direction:column;
+    margin-left:15px;
+}
+
+.detail>h3{
+    font-family:'Montserrat', sans-serif;
+    margin-top:0px;
+}
+.introduce1{
+    font-family:'Noto Sans KR', sans-serif;
+    font-size:15px;
+}
+
+.introduce2{
+    font-family:'Montserrat', sans-serif;
+    font-size:15px;
+}
+
+.values-section{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+
+}
+
+.MYVALUES{
+    margin-top:70px;
+    font-family:'Montserrat', sans-serif;
+    font-size:15px;
+}
+.values{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:center;
+    margin-bottom:15px;
+    font-family:'Noto Sans KR', sans-serif;
+    font-size:15px;
+    margin-left:25px;
+    
+}
+.value-intro{
+    margin-left:15px;
+}
+
+.value-icon{
+    width:150px;
+    height:130px;
+    margin-bottom:10px;
+    border: 2px solid #C2B4AB;
+    border-radius:100px;
+}
+
+.value-intro>h4{
+    margin-top:0px;
+}
